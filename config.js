@@ -25,7 +25,7 @@ module.exports = {
   MODE: process.env.MODE || 'public', //Type public to change bot mode to public
   SUDO: process.env.SUDO || '393713611166',
   ELEVENLABS_API_KEY: process.env.ELEVENLABS_API_KEY || '',
-  TIMEZONE: process.env.TIMEZONE || "UTC/GMT",
+  TIMEZONE: process.env.TIMEZONE || "Asia/Kolkata",
   BOT_LANG: process.env.BOT_LANG || 'EN',
   START_MSG: toBool(process.env.START_MSG || 'true'),
   ERROR_MSG: toBool(process.env.ERROR_MSG || 'true'), 
