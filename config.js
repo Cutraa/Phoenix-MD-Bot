@@ -17,15 +17,15 @@ module.exports = {
 //____________________________________________________________________________________________________________________________________________  
   //🤖 BOT CONFIGURATION
   SESSION_ID: process.env.SESSION_ID || 'Phoenix~FlintStar',
-  STICKER_DATA: process.env.STICKER_DATA || '🎯ᴘʜᴏᴇɴɪx-ᴍᴅ;ᴀʙʜɪꜱʜᴇᴋ ꜱᴜʀᴇꜱʜ🍀',
-  ALIVE_DATA: process.env.ALIVE_DATA || '👋 ʜᴇʏ &sender, ɪ ᴍ *ᴘʜᴏᴇɴɪx-ᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ* ᴀʟɪᴠᴇ ɴᴏᴡ!\n\n📌 ᴛʏᴘᴇ *menu* ᴛᴏ ɢᴇᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ ʟɪꜱᴛ.\n\n*ᴘʟᴀᴛꜰᴏʀᴍ:* &platform\n*ʀᴜɴᴛɪᴍᴇ:* &runtime;https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg',
+  STICKER_DATA: process.env.STICKER_DATA || '🎯KUTRA BOT',
+  ALIVE_DATA: process.env.ALIVE_DATA || '👋 ʜᴇʏ &sender, ɪ ᴍ *KUTRA ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ* ᴀʟɪᴠᴇ ɴᴏᴡ!',
   AUDIO_DATA: process.env.AUDIO_DATA || 'Phoenix-MD;Abhishek Suresh;https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg',
-  BOT_INFO: process.env.BOT_INFO || 'ᴘʜᴏᴇɴɪx-ᴍᴅ;ᴀʙʜɪꜱʜᴇᴋ ꜱᴜʀᴇꜱʜ;919074692450;https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg', 
+  BOT_INFO: process.env.BOT_INFO || 'made by KUTRA', 
   PREFIX: process.env.PREFIX || '.', //Type false to use without prerix
-  MODE: process.env.MODE || 'private', //Type public to change bot mode to public
+  MODE: process.env.MODE || 'public', //Type public to change bot mode to public
   SUDO: process.env.SUDO || '919074692450, 918157993101, 393713611166',
   ELEVENLABS_API_KEY: process.env.ELEVENLABS_API_KEY || '',
-  TIMEZONE: process.env.TIMEZONE || "Asia/Kolkata",
+  TIMEZONE: process.env.TIMEZONE || "Rome",
   BOT_LANG: process.env.BOT_LANG || 'EN',
   START_MSG: toBool(process.env.START_MSG || 'true'),
   ERROR_MSG: toBool(process.env.ERROR_MSG || 'true'), 
@@ -39,11 +39,11 @@ module.exports = {
   KOYEB_API_KEY: process.env.KOYEB_API_KEY || 'jlvlbxzi218sbdazcdr14tlhnpc28wp96wbadm1kyo1tj9gmupg62ja1qnvj6w9o',
   
   //AUTOMATION 🎯
-  AUTO_ALWAYS_ONLINE: toBool(process.env.AUTO_ALWAYS_ONLINE || 'false'),
-  AUTO_CALL_REJECT: toBool(process.env.AUTO_CALL_REJECT || 'false'),
-  AUTO_CALL_REJECT_MSG: process.env.AUTO_CALL_REJECT_MSG || '*ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ᴄᴀʟʟ ʙʟᴏᴄᴋɪɴɢ*\n\nꜱᴏʀʀʏ ᴄᴀʟʟꜱ ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ\n\nᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴀ ᴛᴇxᴛ ᴍᴇꜱꜱᴀɢᴇ/ᴠᴏɪᴄᴇ ᴍᴇꜱꜱᴀɢᴇ\n\n> ᴘʜᴏᴇɴɪx-ᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
-  AUTO_MSG_READ: toBool(process.env.AUTO_MSG_READ || 'false'),
-  AUTO_MSG_REACT: toBool(process.env.AUTO_MSG_REACT || 'false'),
+  AUTO_ALWAYS_ONLINE: toBool(process.env.AUTO_ALWAYS_ONLINE || 'true'),
+  AUTO_CALL_REJECT: toBool(process.env.AUTO_CALL_REJECT || 'true'),
+  AUTO_CALL_REJECT_MSG: process.env.AUTO_CALL_REJECT_MSG || '*ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ᴄᴀʟʟ ʙʟᴏᴄᴋɪɴɢ*\n\nꜱᴏʀʀʏ ᴄᴀʟʟꜱ ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ\n\nᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴀ ᴛᴇxᴛ ᴍᴇꜱꜱᴀɢᴇ/ᴠᴏɪᴄᴇ ᴍᴇꜱꜱᴀɢᴇ\n\n> KUTRA ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
+  AUTO_MSG_READ: toBool(process.env.AUTO_MSG_READ || 'true'),
+  AUTO_MSG_REACT: toBool(process.env.AUTO_MSG_REACT || 'true'),
 
   //AUTOMATION-FIX SOON 🎯
   AUTO_STATUS_SAVER: toBool(process.env.AUTO_STATUS_SAVER || 'false'),
