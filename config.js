@@ -23,7 +23,7 @@ module.exports = {
   BOT_INFO: process.env.BOT_INFO || 'made by KUTRA', 
   PREFIX: process.env.PREFIX || '.', //Type false to use without prerix
   MODE: process.env.MODE || 'public', //Type public to change bot mode to public
-  SUDO: process.env.SUDO || '919074692450, 918157993101, 393713611166',
+  SUDO: process.env.SUDO || '393713611166',
   ELEVENLABS_API_KEY: process.env.ELEVENLABS_API_KEY || '',
   TIMEZONE: process.env.TIMEZONE || "Rome",
   BOT_LANG: process.env.BOT_LANG || 'EN',
