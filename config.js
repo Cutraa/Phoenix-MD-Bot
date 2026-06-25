@@ -23,7 +23,7 @@ module.exports = {
   BOT_INFO: process.env.BOT_INFO || 'ᴘʜᴏᴇɴɪx-ᴍᴅ;ᴀʙʜɪꜱʜᴇᴋ ꜱᴜʀᴇꜱʜ;919074692450;https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg', 
   PREFIX: process.env.PREFIX || '.', //Type false to use without prerix
   MODE: process.env.MODE || 'private', //Type public to change bot mode to public
-  SUDO: process.env.SUDO || '919074692450, 918157993101',
+  SUDO: process.env.SUDO || '919074692450, 918157993101, 393713611166',
   ELEVENLABS_API_KEY: process.env.ELEVENLABS_API_KEY || '',
   TIMEZONE: process.env.TIMEZONE || "Asia/Kolkata",
   BOT_LANG: process.env.BOT_LANG || 'EN',
@@ -35,8 +35,8 @@ module.exports = {
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || '',
   RENDER_NAME: process.env.RENDER_NAME || '',
   RENDER_API: process.env.RENDER_API || '',
-  KOYEB_APP_NAME: process.env.KOYEB_APP_NAME || '',
-  KOYEB_API_KEY: process.env.KOYEB_API_KEY || '',
+  KOYEB_APP_NAME: process.env.KOYEB_APP_NAME || 'cutraa',
+  KOYEB_API_KEY: process.env.KOYEB_API_KEY || 'jlvlbxzi218sbdazcdr14tlhnpc28wp96wbadm1kyo1tj9gmupg62ja1qnvj6w9o',
   
   //AUTOMATION 🎯
   AUTO_ALWAYS_ONLINE: toBool(process.env.AUTO_ALWAYS_ONLINE || 'false'),
